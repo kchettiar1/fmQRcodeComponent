@@ -1,0 +1,32 @@
+@use '../globals/_colors' as g;
+
+.card {
+  margin-block-start: 15px;
+  margin-inline: 15px;
+  width: 320px;
+  background-color: g.$white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+.card-main-image {
+  margin: 15px;
+  width: 290px;
+  border-radius: 20px;
+}
+
+.card-text-heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-inline: 24px;
+  color: g.$dark-blue;
+}
+
+.card-text-body {
+  font-size: 15px;
+  font-weight: 400;
+  margin-inline: 23px;
+  color: g.$grayish-blue;
+}
