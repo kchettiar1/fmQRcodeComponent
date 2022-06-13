@@ -1,0 +1,10 @@
+@use '../utils' as u;
+@use '../globals/_colors' as g;
+
+.attribution {
+  font-size: u.rem(11);
+  text-align: center;
+}
+.attribution a {
+  color: g.$footer-color;
+}
